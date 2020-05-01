@@ -10,20 +10,24 @@ import Foundation
 
 // JSON -> data{} -> attributes{} -> gameModeStats{} -> solo{}
 struct Data: Codable {
-    let attribute: Attribute
+    let attribute: [Attribute]
 }
 
 struct Attribute: Codable {
-    let gameMode: GameModeStat
+    let gameMode: [GameModeStat]
 }
 
 struct GameModeStat: Codable {
-    let solo: Solo
+    let player: [Player]
     
 }
 
-struct Solo: Codable {
+struct Player: Codable {
     let longestKill: Float
     let kills: Int
     let wins: Int
+}
+
+struct PlayerId: Codable {
+    let id: String
 }

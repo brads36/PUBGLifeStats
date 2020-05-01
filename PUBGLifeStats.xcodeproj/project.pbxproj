@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		78689495245BC47D00D74BC8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78689494245BC47D00D74BC8 /* Player.swift */; };
+		78689497245BCAE400D74BC8 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78689496245BCAE400D74BC8 /* PlayerController.swift */; };
+		78689499245BCF6500D74BC8 /* PlayerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78689498245BCF6500D74BC8 /* PlayerError.swift */; };
+		7868949B245BDC8000D74BC8 /* PlayerSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7868949A245BDC8000D74BC8 /* PlayerSearchViewController.swift */; };
+		7868949D245BDC9F00D74BC8 /* PlayerStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7868949C245BDC9F00D74BC8 /* PlayerStatsViewController.swift */; };
 		78DF39C2245BAACE00AE6E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DF39C1245BAACE00AE6E8A /* AppDelegate.swift */; };
 		78DF39C4245BAACE00AE6E8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DF39C3245BAACE00AE6E8A /* SceneDelegate.swift */; };
 		78DF39C9245BAACE00AE6E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DF39C7245BAACE00AE6E8A /* Main.storyboard */; };
@@ -18,6 +22,10 @@
 
 /* Begin PBXFileReference section */
 		78689494245BC47D00D74BC8 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		78689496245BCAE400D74BC8 /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		78689498245BCF6500D74BC8 /* PlayerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerError.swift; sourceTree = "<group>"; };
+		7868949A245BDC8000D74BC8 /* PlayerSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSearchViewController.swift; sourceTree = "<group>"; };
+		7868949C245BDC9F00D74BC8 /* PlayerStatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStatsViewController.swift; sourceTree = "<group>"; };
 		78DF39BE245BAACE00AE6E8A /* PUBGLifeStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PUBGLifeStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DF39C1245BAACE00AE6E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78DF39C3245BAACE00AE6E8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +91,7 @@
 		78DF39D9245BAAFD00AE6E8A /* Helper Files */ = {
 			isa = PBXGroup;
 			children = (
+				78689498245BCF6500D74BC8 /* PlayerError.swift */,
 			);
 			path = "Helper Files";
 			sourceTree = "<group>";
@@ -115,6 +124,8 @@
 		78DF39DD245BAC0200AE6E8A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7868949A245BDC8000D74BC8 /* PlayerSearchViewController.swift */,
+				7868949C245BDC9F00D74BC8 /* PlayerStatsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -122,6 +133,7 @@
 		78DF39DE245BAC1C00AE6E8A /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				78689496245BCAE400D74BC8 /* PlayerController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -199,8 +211,12 @@
 			files = (
 				78689495245BC47D00D74BC8 /* Player.swift in Sources */,
 				78DF39C2245BAACE00AE6E8A /* AppDelegate.swift in Sources */,
+				7868949B245BDC8000D74BC8 /* PlayerSearchViewController.swift in Sources */,
 				78DF39C4245BAACE00AE6E8A /* SceneDelegate.swift in Sources */,
+				78689497245BCAE400D74BC8 /* PlayerController.swift in Sources */,
+				7868949D245BDC9F00D74BC8 /* PlayerStatsViewController.swift in Sources */,
 				78DF39CC245BAACE00AE6E8A /* PUBGLifeStats.xcdatamodeld in Sources */,
+				78689499245BCF6500D74BC8 /* PlayerError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
