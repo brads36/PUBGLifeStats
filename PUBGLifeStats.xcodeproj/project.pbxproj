@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		78DF39C2245BAACE00AE6E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DF39C1245BAACE00AE6E8A /* AppDelegate.swift */; };
 		78DF39C4245BAACE00AE6E8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DF39C3245BAACE00AE6E8A /* SceneDelegate.swift */; };
-		78DF39C6245BAACE00AE6E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DF39C5245BAACE00AE6E8A /* ViewController.swift */; };
 		78DF39C9245BAACE00AE6E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DF39C7245BAACE00AE6E8A /* Main.storyboard */; };
 		78DF39CC245BAACE00AE6E8A /* PUBGLifeStats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78DF39CA245BAACE00AE6E8A /* PUBGLifeStats.xcdatamodeld */; };
 		78DF39CE245BAACE00AE6E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78DF39CD245BAACE00AE6E8A /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		78DF39BE245BAACE00AE6E8A /* PUBGLifeStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PUBGLifeStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DF39C1245BAACE00AE6E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78DF39C3245BAACE00AE6E8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		78DF39C5245BAACE00AE6E8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		78DF39C8245BAACE00AE6E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78DF39CB245BAACE00AE6E8A /* PUBGLifeStats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PUBGLifeStats.xcdatamodel; sourceTree = "<group>"; };
 		78DF39CD245BAACE00AE6E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,16 +56,71 @@
 		78DF39C0245BAACE00AE6E8A /* PUBGLifeStats */ = {
 			isa = PBXGroup;
 			children = (
+				78DF39DC245BAB2200AE6E8A /* Controllers */,
+				78DF39DB245BAB1800AE6E8A /* Views */,
+				78DF39DA245BAB1000AE6E8A /* Models */,
+				78DF39D9245BAAFD00AE6E8A /* Helper Files */,
+				78DF39D8245BAAE200AE6E8A /* Resources */,
+			);
+			path = PUBGLifeStats;
+			sourceTree = "<group>";
+		};
+		78DF39D8245BAAE200AE6E8A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				78DF39C1245BAACE00AE6E8A /* AppDelegate.swift */,
 				78DF39C3245BAACE00AE6E8A /* SceneDelegate.swift */,
-				78DF39C5245BAACE00AE6E8A /* ViewController.swift */,
-				78DF39C7245BAACE00AE6E8A /* Main.storyboard */,
 				78DF39CD245BAACE00AE6E8A /* Assets.xcassets */,
 				78DF39CF245BAACE00AE6E8A /* LaunchScreen.storyboard */,
 				78DF39D2245BAACE00AE6E8A /* Info.plist */,
 				78DF39CA245BAACE00AE6E8A /* PUBGLifeStats.xcdatamodeld */,
 			);
-			path = PUBGLifeStats;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		78DF39D9245BAAFD00AE6E8A /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Helper Files";
+			sourceTree = "<group>";
+		};
+		78DF39DA245BAB1000AE6E8A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		78DF39DB245BAB1800AE6E8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78DF39C7245BAACE00AE6E8A /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78DF39DC245BAB2200AE6E8A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				78DF39DE245BAC1C00AE6E8A /* Model Controllers */,
+				78DF39DD245BAC0200AE6E8A /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		78DF39DD245BAC0200AE6E8A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		78DF39DE245BAC1C00AE6E8A /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +194,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78DF39C6245BAACE00AE6E8A /* ViewController.swift in Sources */,
 				78DF39C2245BAACE00AE6E8A /* AppDelegate.swift in Sources */,
 				78DF39C4245BAACE00AE6E8A /* SceneDelegate.swift in Sources */,
 				78DF39CC245BAACE00AE6E8A /* PUBGLifeStats.xcdatamodeld in Sources */,
