@@ -14,13 +14,42 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="K2F-yh-TPb">
+                                <rect key="frame" x="0.0" y="423" width="414" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="gr2-3x-bTc"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="K2F-yh-TPb" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="bxP-lS-FZo"/>
+                            <constraint firstItem="K2F-yh-TPb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iaG-zH-P50"/>
+                            <constraint firstItem="K2F-yh-TPb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="sCn-Vw-NQq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qN3-1D-Wdi">
+            <objects>
+                <viewController id="mgr-9b-Bcg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tQg-f5-Lxq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="f9j-Q2-6jg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="grq-pY-dDJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="904" y="138"/>
         </scene>
     </scenes>
 </document>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78689495245BC47D00D74BC8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78689494245BC47D00D74BC8 /* Player.swift */; };
 		78DF39C2245BAACE00AE6E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DF39C1245BAACE00AE6E8A /* AppDelegate.swift */; };
 		78DF39C4245BAACE00AE6E8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DF39C3245BAACE00AE6E8A /* SceneDelegate.swift */; };
 		78DF39C9245BAACE00AE6E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DF39C7245BAACE00AE6E8A /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78689494245BC47D00D74BC8 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		78DF39BE245BAACE00AE6E8A /* PUBGLifeStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PUBGLifeStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DF39C1245BAACE00AE6E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78DF39C3245BAACE00AE6E8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		78DF39DA245BAB1000AE6E8A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				78689494245BC47D00D74BC8 /* Player.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78689495245BC47D00D74BC8 /* Player.swift in Sources */,
 				78DF39C2245BAACE00AE6E8A /* AppDelegate.swift in Sources */,
 				78DF39C4245BAACE00AE6E8A /* SceneDelegate.swift in Sources */,
 				78DF39CC245BAACE00AE6E8A /* PUBGLifeStats.xcdatamodeld in Sources */,
@@ -341,7 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PUBGLifeStats/Info.plist;
+				INFOPLIST_FILE = PUBGLifeStats/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,7 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PUBGLifeStats/Info.plist;
+				INFOPLIST_FILE = PUBGLifeStats/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
